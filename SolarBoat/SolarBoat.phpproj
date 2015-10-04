@@ -20,8 +20,8 @@
     <Compile Include="footer.php" />
     <Compile Include="head.php" />
     <Compile Include="index.php" />
-    <Compile Include="indexold.php" />
     <Compile Include="navigation.php" />
+    <Compile Include="photos2014.php" />
     <Compile Include="photos2006.php" />
     <Compile Include="photos2007.php" />
     <Compile Include="photos2008.php" />

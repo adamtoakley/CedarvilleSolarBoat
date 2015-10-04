@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>SolarBoat</Name>
+    <ProjectGuid>a6b4d2c3-7321-4bdb-92f6-9588829ee144</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SolarBoat</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>SolarBoat</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="donate.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="head.php" />
+    <Compile Include="index.php" />
+    <Compile Include="indexold.php" />
+    <Compile Include="navigation.php" />
+    <Compile Include="photos2006.php" />
+    <Compile Include="photos2007.php" />
+    <Compile Include="photos2008.php" />
+    <Compile Include="sponsors.php" />
+    <Compile Include="team2009.php" />
+    <Compile Include="team2010.php" />
+    <Compile Include="team2012.php" />
+    <Compile Include="team2014.php" />
+    <Compile Include="team2015.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\jquery.lightbox-0.5.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="fonts\chunkfive-webfont.eot" />
+    <Content Include="fonts\chunkfive-webfont.svg" />
+    <Content Include="fonts\chunkfive-webfont.ttf" />
+    <Content Include="fonts\chunkfive-webfont.woff" />
+    <Content Include="fonts\exo-regular-webfont.eot" />
+    <Content Include="fonts\exo-regular-webfont.svg" />
+    <Content Include="fonts\exo-regular-webfont.ttf" />
+    <Content Include="fonts\exo-regular-webfont.woff" />
+    <Content Include="images\5S.jpg" />
+    <Content Include="images\5S.png" />
+    <Content Include="images\Aaron.png" />
+    <Content Include="images\accent.png" />
+    <Content Include="images\advanced.jpg" />
+    <Content Include="images\airtech.jpg" />
+    <Content Include="images\Alltrax.jpg" />
+    <Content Include="images\Andy KochWS.png" />
+    <Content Include="images\arrow-accent.png" />
+    <Content Include="images\Ashland.jpg" />
+    <Content Include="images\ATK.jpg" />
+    <Content Include="images\atthetent-thumb.jpg" />
+    <Content Include="images\atthetent.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\Ben YehWS.png" />
+    <Content Include="images\ben-hill.png" />
+    <Content Include="images\Bill SorensenWS.png" />
+    <Content Include="images\Blue-Sea.jpg" />
+    <Content Include="images\Boca.jpg" />
+    <Content Include="images\Boston-gear.jpg" />
+    <Content Include="images\BP.jpg" />
+    <Content Include="images\brad-absher.png" />
+    <Content Include="images\brooks.jpg" />
+    <Content Include="images\brown.png" />
+    <Content Include="images\bullet.png" />
+    <Content Include="images\Campbell.jpg" />
+    <Content Include="images\Castle.jpg" />
+    <Content Include="images\cedarlakefrisian-thumb.jpg" />
+    <Content Include="images\cedarlakefrisian.jpg" />
+    <Content Include="images\cedarville-campus.jpg" />
+    <Content Include="images\Coosa.jpg" />
+    <Content Include="images\cruising-thumb.jpg" />
+    <Content Include="images\cruising.jpg" />
+    <Content Include="images\Dataq.jpg" />
+    <Content Include="images\dewhurst.png" />
+    <Content Include="images\Digilent.jpg" />
+    <Content Include="images\dpg.jpg" />
+    <Content Include="images\Dr. BrownWS.png" />
+    <Content Include="images\Dr. DewhurstWS.png" />
+    <Content Include="images\ec.jpg" />
+    <Content Include="images\endurance-thumb.jpg" />
+    <Content Include="images\endurance.jpg" />
+    <Content Include="images\endurance2-2007-thumb.jpg" />
+    <Content Include="images\endurance2-2007.jpg" />
+    <Content Include="images\endurance2-thumb.jpg" />
+    <Content Include="images\endurance2.jpg" />
+    <Content Include="images\Enersys.jpg" />
+    <Content Include="images\Eric LambWS.png" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\Formula.jpg" />
+    <Content Include="images\gates.jpg" />
+    <Content Include="images\gay.png" />
+    <Content Include="images\girgis.png" />
+    <Content Include="images\hd.jpg" />
+    <Content Include="images\headedout-thumb.jpg" />
+    <Content Include="images\headedout.jpg" />
+    <Content Include="images\heroAccent.png" />
+    <Content Include="images\hexcell.jpg" />
+    <Content Include="images\howland.png" />
+    <Content Include="images\ingram.png" />
+    <Content Include="images\innature-thumb.jpg" />
+    <Content Include="images\innature.jpg" />
+    <Content Include="images\inthecanal-thumb.jpg" />
+    <Content Include="images\inthecanal.jpg" />
+    <Content Include="images\Ja.jpg" />
+    <Content Include="images\Jared.png" />
+    <Content Include="images\john-mcclure.png" />
+    <Content Include="images\Jordan OakesWS.png" />
+    <Content Include="images\jordan-winter.png" />
+    <Content Include="images\Jordan.png" />
+    <Content Include="images\Kipp and Zonen.jpg" />
+    <Content Include="images\Kirsten NicolaisenWS.png" />
+    <Content Include="images\ladd.jpg" />
+    <Content Include="images\Laser Laminations.jpg" />
+    <Content Include="images\leeds.png" />
+    <Content Include="images\lie-nielson.jpg" />
+    <Content Include="images\lightbox-btn-close.gif" />
+    <Content Include="images\lightbox-btn-next.gif" />
+    <Content Include="images\lightbox-btn-prev.gif" />
+    <Content Include="images\lightbox-ico-loading.gif" />
+    <Content Include="images\logo-banner.png" />
+    <Content Include="images\Lowrance.jpg" />
+    <Content Include="images\Mallory.png" />
+    <Content Include="images\Mary.png" />
+    <Content Include="images\MAS-logo.jpg" />
+    <Content Include="images\McCleer.jpg" />
+    <Content Include="images\micro.jpg" />
+    <Content Include="images\mike-steele.png" />
+    <Content Include="images\Mike.png" />
+    <Content Include="images\mordecai-veldt.png" />
+    <Content Include="images\Mr. K_WS.png" />
+    <Content Include="images\Nate RogersWS.png" />
+    <Content Include="images\newfound.jpg" />
+    <Content Include="images\orderedList0.png" />
+    <Content Include="images\orderedList1.png" />
+    <Content Include="images\orderedList2.png" />
+    <Content Include="images\orderedList3.png" />
+    <Content Include="images\orderedList4.png" />
+    <Content Include="images\orderedList5.png" />
+    <Content Include="images\orderedList6.png" />
+    <Content Include="images\orderedList7.png" />
+    <Content Include="images\orderedList8.png" />
+    <Content Include="images\orderedList9.png" />
+    <Content Include="images\outback.jpg" />
+    <Content Include="images\PandG.jpg" />
+    <Content Include="images\parked-thumb.jpg" />
+    <Content Include="images\parked.jpg" />
+    <Content Include="images\Performance.jpg" />
+    <Content Include="images\peter-cahilly.png" />
+    <Content Include="images\Plascore.jpg" />
+    <Content Include="images\QTC.jpg" />
+    <Content Include="images\RED LION.jpg" />
+    <Content Include="images\rexco.jpg" />
+    <Content Include="images\ryan-reep.png" />
+    <Content Include="images\ryan-samuelson.png" />
+    <Content Include="images\Ryan.png" />
+    <Content Include="images\Sam McLeodWS.png" />
+    <Content Include="images\schroeder.png" />
+    <Content Include="images\solar-boat-2012.jpg" />
+    <Content Include="images\SparkFun.jpg" />
+    <Content Include="images\spring3-2007-thumb.jpg" />
+    <Content Include="images\spring3-2007.jpg" />
+    <Content Include="images\sprint-2007-thumb.jpg" />
+    <Content Include="images\sprint-2007.jpg" />
+    <Content Include="images\sprint-qualifier-thumb.jpg" />
+    <Content Include="images\sprint-start-thumb.jpg" />
+    <Content Include="images\sprint-thumb.jpg" />
+    <Content Include="images\sprint1.jpg" />
+    <Content Include="images\sprint2-2007-thumb.jpg" />
+    <Content Include="images\sprint2-2007.jpg" />
+    <Content Include="images\SprintQualifier.jpg" />
+    <Content Include="images\Sprintstart-2006-thumb.jpg" />
+    <Content Include="images\Sprintstart-2006.jpg" />
+    <Content Include="images\SprintStart.jpg" />
+    <Content Include="images\st-pierre.png" />
+    <Content Include="images\startingline-thumb.jpg" />
+    <Content Include="images\startingline.jpg" />
+    <Content Include="images\stephen-smith.png" />
+    <Content Include="images\SuperiorEssex.jpg" />
+    <Content Include="images\suretool.jpg" />
+    <Content Include="images\t-dewhurst.png" />
+    <Content Include="images\Tim RoncoWS.png" />
+    <Content Include="images\tim-george.png" />
+    <Content Include="images\tim-vincent.png" />
+    <Content Include="images\toby-dewhurst.png" />
+    <Content Include="images\Tom PooreWS.png" />
+    <Content Include="images\Trojon-Gear.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\VAC.jpg" />
+    <Content Include="images\WestMarineLogo.jpg" />
+    <Content Include="images\Winston.jpg" />
+    <Content Include="images\yamato.jpg" />
+    <Content Include="images\youtube.png" />
+    <Content Include="images\Zach.png" />
+    <Content Include="images\Zak ZieglerWS.png" />
+    <Content Include="js\jquery-1.7.1.js" />
+    <Content Include="js\jquery.lightbox-0.5.min.js" />
+    <Content Include="js\modernizr-2.5.3.js" />
+    <Content Include="js\solar-splash-main.js" />
+  </ItemGroup>
+</Project>

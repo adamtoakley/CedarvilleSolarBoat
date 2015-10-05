@@ -6,6 +6,7 @@
         <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 		<link href='http://fonts.googleapis.com/css?family=Exo:400,600' rel='stylesheet' type='text/css'>
         <link href="css/Site.css" rel="stylesheet"/>
+        <link href="css/solar-styles.css" rel="stylesheet" />
 
         <link href="css/jquery.lightbox-0.5.css" rel="stylesheet"/>
         <script src="js/modernizr-2.5.3.js"></script>

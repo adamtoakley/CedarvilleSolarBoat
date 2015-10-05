@@ -1,0 +1,9 @@
+.team-row {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    width: 20%;
+    padding: 15px 25px;
+}

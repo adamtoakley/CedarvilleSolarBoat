@@ -31,8 +31,8 @@
             <div id="main-content">
                 <div class="ym-g80 ym-gr" id="team-info">
                     <h1 class="team-titles">Advisors</h1>
-                    <div class="ym-grid grid-members">
-                        <div class="ym-g20 ym-gl grid-element">
+                    <div class="team-row">
+                        <div class="team-member">
                             <div class="ym-gl ym-g50">
                                 <img src="images/t-dewhurst.png" />
                             </div>
@@ -44,7 +44,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ym-g20 ym-gl grid-element">
+                        <div class="team-member">
+                            <div class="ym-gl ym-g50">
+                                <img src="images/brown.png" />
+                            </div>
+                            <div class="ym-gr ym-g50">
+                                <div class="member-info">
+                                    <h3>Gerald<br />
+                                        Brown</h3>
+                                    <a href="mailto:gbrown@cedarville.edu">Email</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="ym-gl ym-g50">
+                                <img src="images/t-dewhurst.png" />
+                            </div>
+                            <div class="ym-gr ym-g50">
+                                <div class="member-info">
+                                    <h3>Timothy<br />
+                                        Dewhurst</h3>
+                                    <a href="mailto:dewhurst@cedarville.edu">Email</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member">
                             <div class="ym-gl ym-g50">
                                 <img src="images/brown.png" />
                             </div>

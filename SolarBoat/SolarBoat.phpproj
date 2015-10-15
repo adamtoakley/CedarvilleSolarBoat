@@ -46,6 +46,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\logo-donate.png" />
     <Content Include="Content\jquery-ui.min.css" />
     <Content Include="Content\jquery.lightbox-0.5.css" />
     <Content Include="Content\Site.css" />

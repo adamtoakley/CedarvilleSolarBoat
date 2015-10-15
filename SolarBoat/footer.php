@@ -24,12 +24,6 @@
                 <div class="clear"></div>
             </footer>
         </div>
-        
-
-        
-        
-        <script type="text/javascript" src="js/solar-splash-main.js"></script>
-        
+        <script type="text/javascript" src="Scripts/solar-splash-main.js"></script>
     </body>
-
 </html>

@@ -30,41 +30,41 @@
                 <div class="ym-g80 ym-gr" id="team-info">
                     <div class="ym-grid grid-members">
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/cruising.jpg" rel="lightbox" class="thumbnail" title="Cruising">
-                                <img src="images/cruising-thumb.jpg" />
+                            <a href="Content/images/cruising.jpg" rel="lightbox" class="thumbnail" title="Cruising">
+                                <img src="Content/images/cruising-thumb.jpg" />
                             </a>
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/endurance.jpg" rel="lightbox" class="thumbnail" title="Endurance">
-                                <img src="images/endurance-thumb.jpg" />
+                            <a href="Content/images/endurance.jpg" rel="lightbox" class="thumbnail" title="Endurance">
+                                <img src="Content/images/endurance-thumb.jpg" />
                             </a>
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/endurance2.jpg" rel="lightbox" class="thumbnail" title="Endurance">
-                                <img src="images/endurance2-thumb.jpg" />
+                            <a href="Content/images/endurance2.jpg" rel="lightbox" class="thumbnail" title="Endurance">
+                                <img src="Content/images/endurance2-thumb.jpg" />
                             </a>
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/sprint1.jpg" rel="lightbox" class="thumbnail" title="Sprint">
-                                <img src="images/sprint-thumb.jpg" />
+                            <a href="Content/images/sprint1.jpg" rel="lightbox" class="thumbnail" title="Sprint">
+                                <img src="Content/images/sprint-thumb.jpg" />
                             </a>
                         </div>
                         <div class="clear"></div>
                     </div>
                     <div class="ym-grid grid-members">
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/SprintQualifier.jpg" rel="lightbox" class="thumbnail" title="Sprint Qualifier">
-                                <img src="images/sprint-qualifier-thumb.jpg" />
+                            <a href="Content/images/SprintQualifier.jpg" rel="lightbox" class="thumbnail" title="Sprint Qualifier">
+                                <img src="Content/images/sprint-qualifier-thumb.jpg" />
                             </a>
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/SprintStart.jpg" rel="lightbox" class="thumbnail" title="Sprint Start">
-                                <img src="images/sprint-start-thumb.jpg" />
+                            <a href="Content/images/SprintStart.jpg" rel="lightbox" class="thumbnail" title="Sprint Start">
+                                <img src="Content/images/sprint-start-thumb.jpg" />
                             </a>
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
-                            <a href="images/startingline.jpg" rel="lightbox" class="thumbnail" title="Starting Line">
-                                <img src="images/startingline-thumb.jpg" />
+                            <a href="Content/images/startingline.jpg" rel="lightbox" class="thumbnail" title="Starting Line">
+                                <img src="Content/images/startingline-thumb.jpg" />
                             </a>
                         </div>
                         <div class="clear"></div>

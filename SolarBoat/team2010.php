@@ -34,7 +34,7 @@
                     <div class="ym-grid grid-members">
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Mike.png" />
+                                <img src="Content/images/Mike.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Zach.png" />
+                                <img src="Content/images/Zach.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -64,7 +64,7 @@
                     <div class="ym-grid grid-members">
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Ryan.png" />
+                                <img src="Content/images/Ryan.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -77,7 +77,7 @@
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Jordan.png" />
+                                <img src="Content/images/Jordan.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Jared.png" />
+                                <img src="Content/images/Jared.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -103,7 +103,7 @@
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Mallory.png" />
+                                <img src="Content/images/Mallory.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -120,7 +120,7 @@
                     <div class="ym-grid grid-members">
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Aaron.png" />
+                                <img src="Content/images/Aaron.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">
@@ -133,7 +133,7 @@
                         </div>
                         <div class="ym-g20 ym-gl grid-element">
                             <div class="ym-gl ym-g50">
-                                <img src="images/Mary.png" />
+                                <img src="Content/images/Mary.png" />
                             </div>
                             <div class="ym-gr ym-g50">
                                 <div class="member-info">

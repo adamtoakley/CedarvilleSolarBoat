@@ -10,8 +10,8 @@
         </div>
     </section>
     <section class="content-wrapper-sub main-content main-content-sub clear-fix">
-        <div class="ym-grid team-grid">
-            <div class="ym-g20 ym-gl" id="team-nav">
+        <div class="col-sm-12 team-grid">
+            <div class="col-sm-2" id="team-nav">
                 <div class="team-year-nav">
                     <a href="team2015.php">2015</a>
                 </div>
@@ -28,15 +28,17 @@
                     <a href="team2009.php">2009</a>
                 </div>
             </div>
-            <div id="main-content">
-                <div class="ym-g80 ym-gr" id="team-info">
-                    <h1 class="team-titles">Advisors</h1>
-                    <div class="team-row">
-                        <div class="team-member">
-                            <div class="ym-gl ym-g50">
-                                <img src="images/t-dewhurst.png" />
+            <div class="col-sm-10" id="main-content">
+                <div class="col-xs-12" id="team-info">
+                    <div class="col-xs-12">
+                        <h1 class="team-titles">Advisors</h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="col-xs-6">
+                                <img src="Content/images/t-dewhurst.png" />
                             </div>
-                            <div class="ym-gr ym-g50">
+                            <div class="col-xs-6">
                                 <div class="member-info">
                                     <h3>Timothy<br />
                                         Dewhurst</h3>
@@ -44,11 +46,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team-member">
-                            <div class="ym-gl ym-g50">
-                                <img src="images/brown.png" />
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="col-xs-6">
+                                <img src="Content/images/brown.png" />
                             </div>
-                            <div class="ym-gr ym-g50">
+                            <div class="col-xs-6">
                                 <div class="member-info">
                                     <h3>Gerald<br />
                                         Brown</h3>
@@ -56,11 +58,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team-member">
-                            <div class="ym-gl ym-g50">
-                                <img src="images/t-dewhurst.png" />
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="col-xs-6">
+                                <img src="Content/images/t-dewhurst.png" />
                             </div>
-                            <div class="ym-gr ym-g50">
+                            <div class="col-xs-6">
                                 <div class="member-info">
                                     <h3>Timothy<br />
                                         Dewhurst</h3>
@@ -68,11 +70,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team-member">
-                            <div class="ym-gl ym-g50">
-                                <img src="images/brown.png" />
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="col-xs-6">
+                                <img src="Content/images/brown.png" />
                             </div>
-                            <div class="ym-gr ym-g50">
+                            <div class="col-xs-6">
                                 <div class="member-info">
                                     <h3>Gerald<br />
                                         Brown</h3>

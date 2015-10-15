@@ -3,7 +3,7 @@
 					<div class="ym-wrapper">
 						<div class="ym-hlist">
 							<a class="logo-wrapper" href="index.php">
-                                    <img src="images/logo-banner.png" alt="Cedarville Solar Boat Team" />
+                                    <img src="Content/images/logo-banner.png" alt="Cedarville Solar Boat Team" />
                             </a>
                             <ul id="menu-primary-menu" class="menu">
                                 <li class="menu-item"><a href="index.php">Home</a></li>

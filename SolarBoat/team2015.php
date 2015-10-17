@@ -34,50 +34,32 @@
                         <h1 class="team-titles">Advisors</h1>
                     </div>
                     <div class="col-xs-12">
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-3 col-xs-6 col-lg-offset-3">
                             <div class="col-xs-6">
                                 <img src="Content/images/t-dewhurst.png" />
                             </div>
                             <div class="col-xs-6">
                                 <div class="member-info">
-                                    <h3>Timothy<br />
-                                        Dewhurst</h3>
+                                    <h3>
+                                        Timothy
+                                        <br />
+                                        Dewhurst
+                                    </h3>
                                     <a href="mailto:dewhurst@cedarville.edu">Email</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-3 col-xs-6">
                             <div class="col-xs-6">
                                 <img src="Content/images/brown.png" />
                             </div>
                             <div class="col-xs-6">
                                 <div class="member-info">
-                                    <h3>Gerald<br />
-                                        Brown</h3>
-                                    <a href="mailto:gbrown@cedarville.edu">Email</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="col-xs-6">
-                                <img src="Content/images/t-dewhurst.png" />
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="member-info">
-                                    <h3>Timothy<br />
-                                        Dewhurst</h3>
-                                    <a href="mailto:dewhurst@cedarville.edu">Email</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="col-xs-6">
-                                <img src="Content/images/brown.png" />
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="member-info">
-                                    <h3>Gerald<br />
-                                        Brown</h3>
+                                    <h3>
+                                        Gerald
+                                        <br />
+                                        Brown
+                                    </h3>
                                     <a href="mailto:gbrown@cedarville.edu">Email</a>
                                 </div>
                             </div>

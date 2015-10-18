@@ -6,6 +6,12 @@ $(document).ready(function () {
         }
     });
 
+    $(document).on('touchend', function (e) {
+        if (!$(e.target).parents('.popover').length > 0) {
+            hideAllPopovers();
+        }
+    });
+
     $('.member-info').each(function () {
         var member = $(this);
         var content = member.find('.member').html();
@@ -18,6 +24,14 @@ $(document).ready(function () {
             trigger: 'manual'
         });
         
+        member.on('touchend', function (e) {
+            hideAllPopovers(this);
+            stuff = $(this);
+            stuff.popover('show');
+            e.preventDefault();
+            return false;
+        });
+
         member.click(function (e) {
             hideAllPopovers(this);
             stuff = $(this);

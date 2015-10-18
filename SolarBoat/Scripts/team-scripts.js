@@ -1,9 +1,8 @@
-﻿$(document).ready(function () {
+﻿/// <reference path="solar-splash-main.js" />
+$(document).ready(function () {
     $(document).click(function (e) {
         if (!$(e.target).parents('.popover').length > 0) {
-            $('.member-info').each(function () {
-                $(this).popover('hide');
-            });
+            hideAllPopovers();
         }
     });
 
@@ -20,9 +19,19 @@
         });
         
         member.click(function (e) {
-            $(this).popover('show');
+            hideAllPopovers(this);
+            stuff = $(this);
+            stuff.popover('show');
             e.preventDefault();
             return false;
         });
     });
+
+    function hideAllPopovers(target) {
+        $('.member-info').each(function () {
+            if (target != this) {
+                $(this).popover('hide');
+            }
+        });
+    }
 });

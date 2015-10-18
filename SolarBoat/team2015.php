@@ -1,6 +1,8 @@
 <?php include('head.php') ?>
 <?php include('navigation.php') ?>
 
+<script src="Scripts/team-scripts.js" type="text/javascript"></script>
+
 <div class="wrapper-main">
     <section class="featured">
         <div class="content-wrapper-sub">
@@ -40,12 +42,25 @@
                             </div>
                             <div class="col-xs-6">
                                 <div class="member-info">
-                                    <h3>
+                                    <h3 style="padding:10px 0">
                                         Timothy
                                         <br />
                                         Dewhurst
                                     </h3>
-                                    <a href="mailto:dewhurst@cedarville.edu">Email</a>
+                                    <a href="" onclick="return false">More Info...</a>
+                                    <div class="member" style="display: none; text-align: center" onclick="e.preventDefault()">
+                                        <p>
+                                            <b>Dr. Timothy Dewhurst, PhD</b>
+                                        </p>
+                                        <p>Dr Dewhurst works on the team alot and does a bunch of things.</p>
+
+                                        <p>Also Dr Dewhurst can fly.</p>
+                                        <p>
+                                            Email:
+                                            <a href="mailto:dewhurst@cedarville.edu">dewhurst@cedarville.edu</a>
+                                            <br />
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -55,12 +70,24 @@
                             </div>
                             <div class="col-xs-6">
                                 <div class="member-info">
-                                    <h3>
+                                    <h3 style="padding:10px 0">
                                         Gerald
                                         <br />
                                         Brown
                                     </h3>
-                                    <a href="mailto:gbrown@cedarville.edu">Email</a>
+                                    <a href="" onclick="return false">More Info...</a>
+                                    <div class="member" style="display: none; text-align: center">
+                                        <p>
+                                            <b>Dr. Gerald Brown, PhD</b>
+                                        </p>
+                                        <p>Dr Brown is a mad scientist who can do everything and anything.</p>
+                                        <p>He's also been known to grow tomatoes in his garden.</p>
+                                        <p>
+                                            Email:
+                                            <a href="mailto:gbrown@cedarville.edu">gbrown@cedarville.edu</a>
+                                            <br />
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

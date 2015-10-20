@@ -6,6 +6,7 @@
 *.user
 *.sln.docstates
 *.config
+*.phppub
 
 # Build results
 [Dd]ebug/

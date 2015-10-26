@@ -1535,8 +1535,8 @@ ul, menu, dir {
     font-size: 2.0em;
     line-height: 1em;
     list-style-type: none;
-    margin: 0 .25em 0 0;
-    padding: 0 0 0 2.5em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 2em;
 }
 
 li {

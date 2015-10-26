@@ -16,6 +16,5 @@
         <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
         <script src="Scripts/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
         <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
-        
     </head>
     <body>

@@ -63,7 +63,7 @@
     $.ajax({
         url: "Team.json"
     }).success(function (response) {
-        JSON.parse(response).forEach(function(year) {
+        response.forEach(function(year) {
             TeamViewModel.Years.push(year);
         })
         ko.applyBindings(TeamViewModel);

@@ -50,7 +50,7 @@
         $.ajax({
             url: 'Team/Team.json',
         }).success(function (response) {
-            JSON.parse(response).find(function (item) {
+            response.find(function (item) {
                 return item.Year == "2015";
             }).Teams.forEach(function (member) {
                 TeamViewModel.Teams.push(member);

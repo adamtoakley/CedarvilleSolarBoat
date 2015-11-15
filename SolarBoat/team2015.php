@@ -32,71 +32,34 @@
             </div>
             <div class="col-sm-10" id="main-content">
                 <div class="col-xs-12" id="team-info">
-                    <div class="col-xs-12">
-                        <h1 class="team-titles">Advisors</h1>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="col-lg-3 col-xs-6 col-lg-offset-3">
-                            <div class="col-xs-6">
-                                <img src="Content/images/t-dewhurst.png" />
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="member-info">
-                                    <h3 style="padding:10px 0">
-                                        Timothy
-                                        <br />
-                                        Dewhurst
-                                    </h3>
-                                    <a href="" onclick="return false">More Info...</a>
-                                    <div class="member" style="display: none; text-align: center" onclick="e.preventDefault()">
-                                        <p>
-                                            <b>Dr. Timothy Dewhurst, PhD</b>
-                                        </p>
-                                        <p>Dr Dewhurst works on the team alot and does a bunch of things.</p>
-
-                                        <p>Also Dr Dewhurst can fly.</p>
-                                        <p>
-                                            Email:
-                                            <a href="mailto:dewhurst@cedarville.edu">dewhurst@cedarville.edu</a>
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-xs-6">
-                            <div class="col-xs-6">
-                                <img src="Content/images/brown.png" />
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="member-info">
-                                    <h3 style="padding:10px 0">
-                                        Gerald
-                                        <br />
-                                        Brown
-                                    </h3>
-                                    <a href="" onclick="return false">More Info...</a>
-                                    <div class="member" style="display: none; text-align: center">
-                                        <p>
-                                            <b>Dr. Gerald Brown, PhD</b>
-                                        </p>
-                                        <p>Dr Brown is a mad scientist who can do everything and anything.</p>
-                                        <p>He's also been known to grow tomatoes in his garden.</p>
-                                        <p>
-                                            Email:
-                                            <a href="mailto:gbrown@cedarville.edu">gbrown@cedarville.edu</a>
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
+                    <div class="col-xs-12" data-bind="template: {
+                         name: 'Templates/Team.tmpl',
+                         foreach: Teams,
+                         as: 'Team' }">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        var TeamViewModel = {
+            Teams: ko.observableArray()
+        }
+
+        $.ajax({
+            url: 'Team/Team.json',
+        }).success(function (response) {
+            JSON.parse(response).find(function (item) {
+                return item.Year == "2015";
+            }).Teams.forEach(function (member) {
+                TeamViewModel.Teams.push(member);
+            });
+        });
+
+        ko.applyBindings(TeamViewModel);
+
+    </script>
 
 
     <?php include('footer.php') ?>

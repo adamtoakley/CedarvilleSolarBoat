@@ -1,5 +1,4 @@
-﻿/// <reference path="solar-splash-main.js" />
-$(document).ready(function () {
+﻿$(document).ready(function () {
     $(document).click(function (e) {
         if (!$(e.target).parents('.popover').length > 0) {
             hideAllPopovers();
@@ -48,4 +47,6 @@ $(document).ready(function () {
             }
         });
     }
+
+
 });

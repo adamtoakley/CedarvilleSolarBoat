@@ -32,11 +32,15 @@
     <Compile Include="team2012.php" />
     <Compile Include="team2014.php" />
     <Compile Include="team2015.php" />
+    <Compile Include="Team\EditTeam.php" />
+    <Compile Include="Team\SaveTeam.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Content\fonts\" />
     <Folder Include="Content\images\" />
+    <Folder Include="Templates\" />
+    <Folder Include="Team\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
@@ -218,7 +222,21 @@
     <Content Include="Content\images\youtube.png" />
     <Content Include="Content\images\Zach.png" />
     <Content Include="Content\images\Zak ZieglerWS.png" />
+    <Content Include="Scripts\infuser-amd.js" />
+    <Content Include="Scripts\infuser-amd.min.gz.js" />
+    <Content Include="Scripts\infuser-amd.min.js" />
+    <Content Include="Scripts\infuser.js" />
+    <Content Include="Scripts\infuser.min.gz.js" />
+    <Content Include="Scripts\infuser.min.js" />
     <Content Include="Scripts\jquery.lightbox-0.5.min.js" />
+    <Content Include="Scripts\knockout-3.3.0.debug.js" />
+    <Content Include="Scripts\knockout-3.3.0.js" />
+    <Content Include="Scripts\koExternalTemplateEngine-amd.js" />
+    <Content Include="Scripts\koExternalTemplateEngine-amd.min.js" />
+    <Content Include="Scripts\koExternalTemplateEngine.js" />
+    <Content Include="Scripts\koExternalTemplateEngine.min.js" />
+    <Content Include="Scripts\koExternalTemplateEngine_all.js" />
+    <Content Include="Scripts\koExternalTemplateEngine_all.min.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\solar-splash-main.js" />
     <Content Include="packages.config" />
@@ -229,5 +247,14 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\team-scripts.js" />
+    <Content Include="Scripts\TrafficCop-amd.js" />
+    <Content Include="Scripts\TrafficCop-amd.min.gz.js" />
+    <Content Include="Scripts\TrafficCop-amd.min.js" />
+    <Content Include="Scripts\TrafficCop.js" />
+    <Content Include="Scripts\TrafficCop.min.gz.js" />
+    <Content Include="Scripts\TrafficCop.min.js" />
+    <Content Include="Team\Team.json" />
+    <Content Include="Templates\Member.tmpl.html" />
+    <Content Include="Templates\Team.tmpl.html" />
   </ItemGroup>
 </Project>

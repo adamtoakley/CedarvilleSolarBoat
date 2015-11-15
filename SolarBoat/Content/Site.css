@@ -1898,9 +1898,18 @@ footer a
     padding-bottom: 50px;
 }
 
+.bottom-margin-medium
+{
+    margin-bottom: 50px;
+}
+
 .grid-members 
 {
     padding-left: 50px;
+}
+
+.member-photo {
+    margin: 10px 0;
 }
 
 .member-info 
@@ -1912,6 +1921,26 @@ footer a
 {
     padding-right: 50px;
     padding-bottom: 50px;
+}
+
+.no-side-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-vert-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.no-side-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-vert-padding {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #lightbox-container-image-data-box {

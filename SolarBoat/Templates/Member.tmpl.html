@@ -3,23 +3,13 @@
 <!-- /ko -->
 <div class="col-xs-6 col-lg-4 col-xl-3 no-side-padding">
     <div class="col-xs-6 col-lg-5 no-side-padding member-photo">
-        <img data-bind="attr: { src: 'Content/images/' + Member.Name + '.jpg'}" />
+        <img data-bind="attr: { src: 'Content/images/' + Member.Name + '.png'}" />
     </div>
     <div class="col-xs-6 col-lg-7 no-side-padding text-center">
         <div class="member-info">
             <h3 style="padding:10px 0" data-bind="text: Member.Name"></h3>
-            <a href="" onclick="return false">More Info...</a>
-            <div class="member" style="display: none; text-align: center">
-                <p>
-                    <b data-bind="text: Member.Name"></b>
-                </p>
-                <p>Role: <span data-bind="text: Member.Role"></span></p>
-                <p>
-                    Email:
-                    <a href="mailto:gbrown@cedarville.edu">gbrown@cedarville.edu</a>
-                    <br />
-                </p>
-            </div>
+            <br />
+            <a data-bind="attr: {href: 'mailto:' + Member.Email }">Email</a>
         </div>
     </div>
 </div>

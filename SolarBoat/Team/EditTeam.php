@@ -31,7 +31,7 @@
             data-bind="
             options: Members,
             value: Member,
-            optionsText: function(member) { return 'Name: ' + member.Name + ', Role: ' + member.Role },
+            optionsText: function(member) { return 'Name: ' + member.Name + ', Email: ' + member.Email },
             optionsCaption: 'Select Member...',
             enable: Team">
     </select>
@@ -39,7 +39,7 @@
     <a data-bind="visible: Team() && !Member()" href="javascript:void(0)" onclick="showAddContainer('member')"> + </a>
     <div id="add-member-container" style="display: none">
         Name: <input id="new-member-name-textbox" type="text" /><br />
-        Role: <input id="new-member-role-textbox" type="text" /><br />
+        Email: <input id="new-member-email-textbox" type="text" /><br />
         Member Photo: <strong>(Must be a 150px by 150px PNG File)</strong><input id="member-photo" type="file" name="member-photo" /><br />
         <input type="button" value="Add" onclick="addMember()" />
     </div>
@@ -64,6 +64,9 @@
         return TeamViewModel.Team() && TeamViewModel.Team().Members ? TeamViewModel.Team().Members : [];
     });
 
+    $(document).ready(function () {
+        $.ajaxSetup({ cache: false });
+    });
 
     $.getJSON("Team.json")
     .done(function (response) {
@@ -75,9 +78,10 @@
 
     function addYear() {
         TeamViewModel.Years.push({
-            Year: $("#new-year-textbox").val()
+            Year: $("#new-year-textbox").val(),
+            Teams: []
         });
-        showRemoveContainer('year');
+        hideAddContainer('year');
         saveTeam();
     }
 
@@ -110,14 +114,14 @@
     function addMember() {
         TeamViewModel.Team().Members.push({
             Name: $("#new-member-name-textbox").val(),
-            Role: $("#new-member-role-textbox").val(),
+            Email: $("#new-member-email-textbox").val(),
         });
 
         TeamViewModel.Team.valueHasMutated();
 
         var formData = new FormData();
         formData.append("memberphoto", $('#member-photo')[0].files[0]);
-        formData.append("filename", $("#new-member-name-textbox").val() + ".jpg");
+        formData.append("filename", $("#new-member-name-textbox").val() + ".png");
         $.ajax({
             url: 'saveImage.php',
             type: 'POST',

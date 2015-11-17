@@ -1895,7 +1895,7 @@ footer a
     color: #262727;
     font-size: 2em;
     font-family: Exo;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .bottom-margin-medium
@@ -1909,7 +1909,7 @@ footer a
 }
 
 .member-photo {
-    margin: 10px 0;
+    margin-top: 40px;
 }
 
 .member-info 

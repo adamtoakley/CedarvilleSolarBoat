@@ -1,7 +1,10 @@
 <?php include('../head.php') ?>
 
-<div style="text-align:center; margin-top:100px;">
-    <select id="year-drop-down"
+<div style="margin-top:100px; margin-left: 100px">
+
+    <h2>Edit Solar Boat Team:</h2>
+    <br />
+    <select id="year-drop-down" style="min-width:250px" onchange="hideAllContainers()"
             data-bind="options: Years,
             value: Year,
             optionsText: 'Year',
@@ -12,7 +15,7 @@
     <a data-bind="visible: Year" href="javascript:void(0)" onclick="showRemoveContainer('year')"> - </a><div id="remove-year-container" style="display: none"> Are you sure? <input type="button" value="Yes" onclick="removeYear()" /> <input type="button" value="No" onclick="hideRemoveContainer('year')" /></div>
 
     <br />
-    <select id="team-drop-down"
+    <select id="team-drop-down" style="min-width:250px" onchange="hideAllContainers()"
             data-bind="options: Teams,
             value: Team,
             optionsText: 'TeamName',
@@ -24,22 +27,24 @@
     <a data-bind="visible: Team" href="javascript:void(0)" onclick="showRemoveContainer('team')"> - </a><div id="remove-team-container" style="display: none"> Are you sure? <input type="button" value="Yes" onclick="removeTeam()" /> <input type="button" value="No" onclick="hideRemoveContainer('team')" /></div>
 
     <br />
-    <select data-bind="options: Members,
+    <select id="member-drop-down" style="min-width:250px" onchange="hideAllContainers()"
+            data-bind="
+            options: Members,
             value: Member,
             optionsText: function(member) { return 'Name: ' + member.Name + ', Role: ' + member.Role },
             optionsCaption: 'Select Member...',
             enable: Team">
     </select>
 
-    <a data-bind="visible: Team() && !Member()" href="javascript:void(0)" onclick="showAddContainer('member')"> + </a><div id="add-member-container" style="display: none">Name:<input id="new-member-name-textbox" type="text" /> Role: <input id="new-member-role-textbox" type="text" /> <input type="button" value="Add" onclick="addMember()" /></div>
-    <a data-bind="visible: Member" href="javascript:void(0)" onclick="showRemoveContainer('member')"> - </a><div id="remove-member-container" style="display: none"> Are you sure? <input type="button" value="Yes" onclick="removeMember()" /> <input type="button" value="No" onclick="hideRemoveContainer('member')" /></div>
-
-    <br />
-    <br />
-    <div>
-        <input type="button" value="Save" onclick="saveTeam()" />
+    <a data-bind="visible: Team() && !Member()" href="javascript:void(0)" onclick="showAddContainer('member')"> + </a>
+    <div id="add-member-container" style="display: none">
+        Name: <input id="new-member-name-textbox" type="text" /><br />
+        Role: <input id="new-member-role-textbox" type="text" /><br />
+        Member Photo: <strong>(Must be a 150px by 150px PNG File)</strong><input id="member-photo" type="file" name="member-photo" /><br />
+        <input type="button" value="Add" onclick="addMember()" />
     </div>
-
+    <a data-bind="visible: Member" href="javascript:void(0)" onclick="showRemoveContainer('member')"> - </a><div id="remove-member-container" style="display: none"> Are you sure? <input type="button" value="Yes" onclick="removeMember()" /> <input type="button" value="No" onclick="hideRemoveContainer('member')" /></div>
+    
 </div>
 
 <script>
@@ -60,9 +65,8 @@
     });
 
 
-    $.ajax({
-        url: "Team.json"
-    }).success(function (response) {
+    $.getJSON("Team.json")
+    .done(function (response) {
         response.forEach(function(year) {
             TeamViewModel.Years.push(year);
         })
@@ -74,6 +78,7 @@
             Year: $("#new-year-textbox").val()
         });
         showRemoveContainer('year');
+        saveTeam();
     }
 
     function removeYear() {
@@ -81,6 +86,7 @@
             return TeamViewModel.Year().Year == year.Year;
         });
         hideRemoveContainer('year');
+        saveTeam();
     }
 
     function addTeam() {
@@ -90,6 +96,7 @@
         });
         TeamViewModel.Year.valueHasMutated();
         hideAddContainer('team');
+        saveTeam();
     }
 
     function removeTeam() {
@@ -97,6 +104,7 @@
         TeamViewModel.Teams().splice(index, 1);
         TeamViewModel.Year.valueHasMutated();
         hideRemoveContainer('team');
+        saveTeam();
     }
 
     function addMember() {
@@ -104,8 +112,22 @@
             Name: $("#new-member-name-textbox").val(),
             Role: $("#new-member-role-textbox").val(),
         });
+
         TeamViewModel.Team.valueHasMutated();
+
+        var formData = new FormData();
+        formData.append("memberphoto", $('#member-photo')[0].files[0]);
+        formData.append("filename", $("#new-member-name-textbox").val() + ".jpg");
+        $.ajax({
+            url: 'saveImage.php',
+            type: 'POST',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false
+        });
         hideAddContainer('member');
+        saveTeam();
     }
 
     function removeMember() {
@@ -113,6 +135,16 @@
         TeamViewModel.Members().splice(index, 1);
         TeamViewModel.Team.valueHasMutated();
         hideRemoveContainer('member');
+        saveTeam();
+    }
+
+    function hideAllContainers() {
+        hideRemoveContainer('year');
+        hideAddContainer('year');
+        hideRemoveContainer('team');
+        hideAddContainer('team');
+        hideRemoveContainer('member');
+        hideAddContainer('member');
     }
 
     function showAddContainer(type) {

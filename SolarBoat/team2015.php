@@ -47,9 +47,8 @@
             Teams: ko.observableArray()
         }
 
-        $.ajax({
-            url: 'Team/Team.json',
-        }).success(function (response) {
+        $.getJSON('Team/Team.json')
+            .done(function (response) {
             response.find(function (item) {
                 return item.Year == "2015";
             }).Teams.forEach(function (member) {

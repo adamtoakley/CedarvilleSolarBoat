@@ -33,6 +33,7 @@
     <Compile Include="team2014.php" />
     <Compile Include="team2015.php" />
     <Compile Include="Team\EditTeam.php" />
+    <Compile Include="Team\SaveImage.php" />
     <Compile Include="Team\SaveTeam.php" />
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +51,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\Dr Brown.jpg" />
+    <Content Include="Content\images\Dr Dewhurst.jpg" />
+    <Content Include="Content\images\Dude Man.jpg" />
+    <Content Include="Content\images\First Girl.jpg" />
+    <Content Include="Content\images\Gordon Austin.jpg" />
+    <Content Include="Content\images\Jay Kinsinger.jpg" />
     <Content Include="Content\images\logo-donate.png" />
+    <Content Include="Content\images\New Kid.jpg" />
+    <Content Include="Content\images\Old Kid.jpg" />
+    <Content Include="Content\images\Other Kid.jpg" />
+    <Content Include="Content\images\Second Girl.jpg" />
     <Content Include="Content\jquery-ui.min.css" />
     <Content Include="Content\jquery.lightbox-0.5.css" />
     <Content Include="Content\Site.css" />

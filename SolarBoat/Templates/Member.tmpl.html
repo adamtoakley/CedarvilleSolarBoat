@@ -1,11 +1,11 @@
 ﻿<!-- ko if: $index() == 0 -->
 <div class="col-lg-3 col-xs-0" data-bind="visible: Team.Members.length < 3"></div>
 <!-- /ko -->
-<div class="col-lg-3 col-xs-6 no-side-padding">
+<div class="col-xs-6 col-lg-4 col-xl-3 no-side-padding">
     <div class="col-xs-6 col-lg-5 no-side-padding member-photo">
-        <img src="Content/images/brown.png" />
+        <img data-bind="attr: { src: 'Content/images/' + Member.Name + '.jpg'}" />
     </div>
-    <div class="col-xs-6 col-lg-7 no-side-padding">
+    <div class="col-xs-6 col-lg-7 no-side-padding text-center">
         <div class="member-info">
             <h3 style="padding:10px 0" data-bind="text: Member.Name"></h3>
             <a href="" onclick="return false">More Info...</a>

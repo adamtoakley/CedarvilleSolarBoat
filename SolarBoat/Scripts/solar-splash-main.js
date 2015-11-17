@@ -29,23 +29,23 @@
             $(this).removeClass("main-selected");
         }
     });
-    if (Modernizr.history) {
+    //if (Modernizr.history) {
 
-        var newHash = "";
+    //    var newHash = "";
 
-        $("#team-nav").delegate("a", "click", function () {
-            _link = $(this).attr("href");
-            history.pushState(null, null, _link);
-            loadContent(_link);
-            return false;
-        });
+    //    $("#team-nav").delegate("a", "click", function () {
+    //        _link = $(this).attr("href");
+    //        history.pushState(null, null, _link);
+    //        loadContent(_link);
+    //        return false;
+    //    });
 
-        $(window).bind('popstate', function () {
-            _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
-            loadContent(_link);
-        });
+    //    $(window).bind('popstate', function () {
+    //        _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
+    //        loadContent(_link);
+    //    });
 
-    }
+    //}
 
     $('a[rel=lightbox]').lightBox({
         containerResizeSpeed: 250,

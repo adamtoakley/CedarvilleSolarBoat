@@ -31,7 +31,7 @@
     <Compile Include="team2010.php" />
     <Compile Include="team2012.php" />
     <Compile Include="team2014.php" />
-    <Compile Include="team2015.php" />
+    <Compile Include="team2016.php" />
     <Compile Include="Team\EditTeam.php" />
     <Compile Include="Team\SaveImage.php" />
     <Compile Include="Team\SaveTeam.php" />

@@ -8,7 +8,7 @@
                             <ul id="menu-primary-menu" class="menu">
                                 <li class="menu-item"><a href="/">Home</a></li>
                                 <li class="menu-item"><a href="photos2014.php">Photos</a></li>
-                                <li class="menu-item"><a href="team2015.php">Team</a></li>
+                                <li class="menu-item"><a href="team2016.php">Team</a></li>
                                 <li class="menu-item"><a href="sponsors.php">Sponsors</a></li>
 								<li class="menu-item"><a href="donate.php">Donate</a></li>
                             </ul>

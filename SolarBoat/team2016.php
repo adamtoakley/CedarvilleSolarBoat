@@ -15,7 +15,7 @@
         <div class="col-sm-12 team-grid">
             <div class="col-sm-2" id="team-nav">
                 <div class="team-year-nav">
-                    <a href="team2015.php">2015</a>
+                    <a href="team2016.php">2016</a>
                 </div>
                 <div class="team-year-nav">
                     <a href="team2014.php">2014</a>
@@ -50,7 +50,7 @@
         $.getJSON('Team/Team.json')
             .done(function (response) {
             response.find(function (item) {
-                return item.Year == "2015";
+                return item.Year == "2016";
             }).Teams.forEach(function (member) {
                 TeamViewModel.Teams.push(member);
             });

@@ -13,24 +13,24 @@
         <p>
             The highly successful Cedarville University Solar Boat Team is teaming up with SeaLandAire
             Technologies to take the next step in accepting the
-            <a href="http://www.dutchsolarchallenge.nl/en/">Dutch Solar Challenge.</a>
+            <a target="_blank" href="http://www.dutchsolarchallenge.nl/en/">Dutch Solar Challenge.</a>
         </p>
         <p>
             Cedarville University is fresh off its 8th
-            <a href="http://solarsplash.com/">Solar Splash World Championship</a>
+            <a target="_blank" href="http://solarsplash.com/">Solar Splash World Championship</a>
             and is eager to return to the Dutch Solar Challenge in the Netherlands where in 2012 Cedarville
             was the top university team finishing ahead of all other schools while taking a 3rd place overall
             in the Top Class.
         </p>
         <p>
-            <a href="http://sealandaire.com/">SeaLandAire Technologies, Inc.</a>
+            <a target="_blank" href="http://sealandaire.com/">SeaLandAire Technologies, Inc.</a>
             is a vibrant, innovative company that has created its reputation as a world-leader in
-            <a href="http://sealandaire.com/Product/hydrophones/">hydrophones</a>
+            <a target="_blank" href="http://sealandaire.com/Product/hydrophones/">hydrophones</a>
             while developing impressive projects such as the
-            <a href="http://sealandaire.com/project/phase/">PHASE</a>,
-            <a href="http://sealandaire.com/project/compact-riverine-auv/">the Compact Rivervine AUV</a>,
-            the <a href="http://sealandaire.com/project/cmas/">CMAS</a> (for which the Cedarville boat team
-            designed and built the propellers), the <a href="http://sealandaire.com/project/pos-skb/">POS-SKB</a>
+            <a target="_blank" href="http://sealandaire.com/project/phase/">PHASE</a>,
+            <a target="_blank" href="http://sealandaire.com/project/compact-riverine-auv/">the Compact Rivervine AUV</a>,
+            the <a target="_blank" href="http://sealandaire.com/project/cmas/">CMAS</a> (for which the Cedarville boat team
+            designed and built the propellers), the <a target="_blank" href="http://sealandaire.com/project/pos-skb/">POS-SKB</a>
             and many other technically challenging products for scientific and military purposes.
             Two important alumni of Cedarville University’s Solar Boat Team are now key members of SeaLandAire’s
             engineering development team.
@@ -45,7 +45,7 @@
             Cedarville also beat teams from Brazil, Turkey, and China. Two boats, out of the same mold,
             finished ahead of Cedarville. These boats, sponsored by Clafis/Private Energy, were impressive
             in their performance and set a standard for other boats to strive to achieve. TU Delft, multiple
-            winner of the <a href="http://www.worldsolarchallenge.org/">World Solar Challenge (Australia)</a> 
+            winner of the <a target="_blank" href="http://www.worldsolarchallenge.org/">World Solar Challenge (Australia)</a> 
             and the Dutch Solar Challenge is always a strong, innovative contender, as is the Midnight Sun
             boat of KYAMK University in Finland.
         </p>

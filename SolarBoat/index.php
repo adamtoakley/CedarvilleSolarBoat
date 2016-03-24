@@ -29,6 +29,12 @@
 
             team finishing ahead of all other schools while taking a 3rd place overall in the Top Class.
         </p>
+        <div style="float:right; height: 275px; width: 400px; margin-left:35px; margin-top: 10px">
+            <img src="Content/images/sealandaire_logo.png" alt="Sea Land Aire Logo" />
+            <h2>
+                <i>"...alumni of Cedarville University’s Solar Boat Team are now key members of SeaLandAire’s engineering development team."</i>
+            </h2>
+        </div>
         <p>
             <a target="_blank" href="http://sealandaire.com/">SeaLandAire Technologies</a>, Inc.
             
@@ -37,6 +43,8 @@
             as a world-leader in hydrophone and sonobuoy research and development.  In addition to its
 
             expertise in underwater acoustics, SeaLandAire has also developed numerous prototype sensor
+
+            
 
             platforms for both scientific and defense applications, including: unattended ground sensors,
 
@@ -48,6 +56,7 @@
 
             are now key members of SeaLandAire’s engineering development team.
         </p>
+        
         <p>
             The 2016 Dutch Solar Challenge, with over 30 boats participating from 9 different countries,
 

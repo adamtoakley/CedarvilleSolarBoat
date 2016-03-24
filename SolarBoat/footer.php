@@ -1,13 +1,10 @@
             <div id="spacer">&nbsp;</div>
             <div class="social-media">
             <div class="footer-buttons-wrapper">
-              <a href="#" class="buttons-wrapper" target="_blank">
+              <a href="https://www.facebook.com/CedarvilleBoat/" class="buttons-wrapper" target="_blank">
                 <div class="footer-buttons facebook"></div>
               </a>
-              <a href="#" class="buttons-wrapper" target="_blank">
-                <div class="footer-buttons twitter"></div>
-              </a>
-              <a href="#" class="buttons-wrapper" target="_blank">
+              <a href="https://www.youtube.com/user/CUSolarSplash" class="buttons-wrapper" target="_blank">
                 <div class="footer-buttons youtube"></div>
               </a>
               <div class="clear"></div>

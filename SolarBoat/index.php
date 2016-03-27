@@ -39,7 +39,7 @@
 
                         team finishing ahead of all other schools while taking a 3rd place overall in the Top Class.
                 </p>
-                <div style="float:right; height: 275px; width: 400px; margin-left:35px; margin-top: 10px">
+                <div style="float:right; height: 275px; width: 400px; margin-left:35px; margin-top: 10px; margin-bottom:15px">
                     <img src="Content/images/sealandaire_logo.png" alt="Sea Land Aire Logo" />
                     <h2>
                         <i>"...alumni of Cedarville University’s Solar Boat Team are now key members of SeaLandAire’s engineering development team."</i>

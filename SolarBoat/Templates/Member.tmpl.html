@@ -9,7 +9,11 @@
         <div class="member-info">
             <h3 style="padding:10px 0" data-bind="text: Member.Name"></h3>
             <br />
-            <a data-bind="attr: {href: 'mailto:' + Member.Email }">Email</a>
+
+            <a data-bind="attr: {href: 'mailto:' + Member.Email }" >
+            <span data-bind="text: Member.Email.substring(0, Member.Email.indexOf('@'))"></span><br />
+            <span data-bind="text: Member.Email.substring(Member.Email.indexOf('@'), Member.Email.length)"></span>
+            </a>
         </div>
     </div>
 </div>

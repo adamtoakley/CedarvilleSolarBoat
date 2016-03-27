@@ -136,7 +136,7 @@ h5, h6 {
 }
 
     .main-content {
-        background: url("../Content/images/accent.png") no-repeat;
+        background: url("../Content/images/arrow-accent.png") no-repeat;
         padding-left: 10px;
         padding-top: 30px;
     }
@@ -232,18 +232,18 @@ ul#menu {
 ----------------------------------------------------------*/
 /* featured */
 .featured {
-    background-color: #fff;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,1));
 }
 
     .featured .content-wrapper {
-        background-color: #00bce4;
-        background-image: -ms-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: -o-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #00bce4), color-stop(1, #a4d4e6));
-        background-image: -webkit-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: #00bce4;
+        background: -ms-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: -o-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, #00bce4), color-stop(1, #a4d4e6));
+        background: -webkit-linear-gradient(left, rgba(0, 188, 228, .75) 0%, rgba(164, 212, 230, .75) 100%);
+        background: linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
         color: #3e5667;
-        padding: 20px 40px 20px 40px;
+        padding: 10px 40px 5px 40px;
     }
 
         .featured hgroup.title h1, .featured hgroup.title h2 {
@@ -1500,8 +1500,6 @@ header.main-nav nav#main-navigation.scroll {
 
 header.main-nav nav#main-navigation {
     height: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;  
 	background: rgba(0,188,228,0.6);  
     border-bottom: 2px solid rgba(0,188,250,0.6);
     -moz-transition-property: all;
@@ -1526,7 +1524,7 @@ nav ul, nav ol {
 }
 
 ul, menu, dir {
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
 .ym-hlist ul li {
@@ -1536,7 +1534,11 @@ ul, menu, dir {
     line-height: 1em;
     list-style-type: none;
     margin: 0 0 0 0;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 1.5em;
+}
+
+.ym-hlist ul li:first-of-type {
+    padding: 0 0 0 0;
 }
 
 li {
@@ -1556,6 +1558,7 @@ li {
     display: block;
     width: auto;
     text-decoration: none;
+    font-size: 25px;
     font-family: Exo;
     font-weight: bold;
     text-transform: uppercase;
@@ -1574,20 +1577,21 @@ li {
 	display: inline-block;
 	width: auto;
 	float: left;
+    padding-left: 25px
 }
 
 .slogan 
 {
-    margin: 15.725em auto 0 auto;
+    margin: 110px auto 0 auto;
 }
 
 .banner .claim h2 {
-	font-size: 2.5em !important;
+	font-size: 1.5em !important;
 	padding-left: 0px !important;
 }
 
 .banner {
-    height: 500px;
+    height: 300px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -1605,8 +1609,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 .wrapper-main {
     position: relative;
-    top: 31.250em;
-    background: #ffffff;
+    top: 225px;
     
 }
 
@@ -1719,22 +1722,13 @@ footer a
     padding-top:30%;
 }
 
-.sponsors .ym-grid {
-    max-width: 100em;
-    margin: 0 auto;
-}
 
 .sponsors .sponsor {
-    margin: 15px;
+    padding: 30px;
+    height: 200px;
 
 }
 
-.sponsor a 
-{
-    margin-top: 5px;
-    text-align: center;
-    display: block;
-}
 
 .team-grid 
 {
@@ -1788,14 +1782,14 @@ footer a
 }
 
 .featured .content-wrapper-sub {
-        background-color: #00bce4;
-        background-image: -ms-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: -o-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #00bce4), color-stop(1, #a4d4e6));
-        background-image: -webkit-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
-        background-image: linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: #00bce4;
+        background: -ms-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: -o-linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, #00bce4), color-stop(1, #a4d4e6));
+        background: -webkit-linear-gradient(left, rgba(0, 188, 228, .75) 0%, rgba(164, 212, 230, .75) 100%);
+        background: linear-gradient(left, #00bce4 0%, #a4d4e6 100%);
         color: #3e5667;
-        padding: 20px 40px 20px 40px;
+        padding: 10px 40px 5px 40px;
 }
 
 .main-content-sub 

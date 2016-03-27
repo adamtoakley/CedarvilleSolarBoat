@@ -11,31 +11,32 @@
             </hgroup>
         </div>
     </section>
-    <section class="content-wrapper-sub main-content main-content-sub clear-fix">
-        <div class="col-sm-12 team-grid">
-            <div class="col-sm-2" id="team-nav">
-                <div class="team-year-nav">
-                    <a href="team2016.php">2016</a>
+    <section style="background: white">
+        <div class="content-wrapper-sub main-content main-content-sub clear-fix">
+            <div class="col-sm-12 team-grid">
+                <div class="col-sm-2" id="team-nav">
+                    <div class="team-year-nav">
+                        <a href="team2016.php">2016</a>
+                    </div>
+                    <div class="team-year-nav">
+                        <a href="team2014.php">2014</a>
+                    </div>
+                    <div class="team-year-nav">
+                        <a href="team2012.php">2012</a>
+                    </div>
+                    <div class="team-year-nav">
+                        <a href="team2010.php">2010</a>
+                    </div>
+                    <div class="team-year-nav">
+                        <a href="team2009.php">2009</a>
+                    </div>
                 </div>
-                <div class="team-year-nav">
-                    <a href="team2014.php">2014</a>
-                </div>
-                <div class="team-year-nav">
-                    <a href="team2012.php">2012</a>
-                </div>
-                <div class="team-year-nav">
-                    <a href="team2010.php">2010</a>
-                </div>
-                <div class="team-year-nav">
-                    <a href="team2009.php">2009</a>
-                </div>
-            </div>
-            <div class="col-sm-10" id="main-content">
-                <div class="col-xs-12" id="team-info">
-                    <div class="col-xs-12" data-bind="template: {
+                <div class="col-sm-10" id="main-content">
+                    <div class="col-xs-12" id="team-info">
+                        <div class="col-xs-12" data-bind="template: {
                          name: 'Templates/Team.tmpl',
                          foreach: Teams,
-                         as: 'Team' }">
+                         as: 'Team' }"></div>
                     </div>
                 </div>
             </div>
